@@ -5,11 +5,27 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Questão 03</title>
     <!-- Associa o arquivo JavaScript com o atributo defer -->
-    <script type="text/javascript" src="js/Questao_03.js" defer></script>
+    <script defer>
+        // Declaração das variáveis
+        let nomeAluno = "João da Silva";               // Nome do aluno
+        let primeiraNota = 7;                          // Primeira nota
+        let segundaNota = 8.5;                         // Segunda nota
+
+        let primeiraNotaPeso = primeiraNota * 0.6;     // Primeira nota ponderada
+        let segundaNotaPeso = segundaNota * 0.4;       // Segunda nota ponderada
+
+        let notaTotal = primeiraNotaPeso + segundaNotaPeso; // Soma das notas ponderadas
+
+        // Exibir alertas com os resultados
+        alert("Nome do aluno: " + nomeAluno + "\nPrimeira nota: " + primeiraNota + "\nSegunda nota: " + segundaNota);
+        alert("Nota total do aluno: " + notaTotal);
+    </script>
 </head>
 <body>
     <div>
         <h1>Questão 03</h1>
+        <a href="index.html">voltar</a>
+
     </div>
 </body>
 </html>
